@@ -161,10 +161,11 @@ New labs (lab02, lab03, …) will be released by adding new folders to the cours
 Your fork will NOT update automatically.
 
 Step 1: Sync your fork on GitHub
-  Go to your forked repo on GitHub
-  Click Sync fork → Update branch
+-Go to your forked repo on GitHub
+-Click Sync fork → Update branch
+
 Step 2: Update your local repo (your laptop)
-Open Ubuntu/macOS Terminal inside your repo folder and run:
+-Open Ubuntu/macOS Terminal inside your repo folder and run:
 ```
 git pull
 
