@@ -8,7 +8,21 @@ int two_sum(const int* nums, int n, int target, int* out_i, int* out_j) {
     //  - store indices in *out_i and *out_j
     //  - return 1 if found; otherwise return 0
     // //////
+    if (n < 2) return 0;
+
+    int i;
+    int j;
+
+    for (i = 0; i < n - 1; i++) {
+        for (j = i + 1; j < n; j++) {
+            if (nums[i] + nums[j] == target) {
+                *out_i = i;
+                *out_j = j;
+                return 1;
+            }
+        }
+    }
+
     return 0;
 }
-
 //think about the time complexity and space complexity of your solution
